@@ -1,12 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Lato)
-
 body {
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #EF5350;
+  background: #003300;
   font-family: "Lato", Arial;
   color: #263238;
   }
@@ -35,7 +33,7 @@ body {
         font-weight: bold;
 		}
       .string {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 18px;
-        opacity: .4;
+        opacity: .9;
 		}
