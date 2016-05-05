@@ -39,16 +39,29 @@
 	</div>
 </nav>
 
-        <div class="panel panel-default">
-  <div class="jumbotron vertical-center">
-  	<h2>What Is My IP?</h2>
+<div id="content">
+    <div class="text-vertical-center">
+        <div class="container">
+            <div class="row">
+                <div id="form" class="col-md-6 col-md-offset-3">
+                    <h2>What Is My IP?</h2>
   <div class="well"><script type="application/javascript">
   function getIP(json) {
     document.write(json.ip);
   }
 </script><script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script></div>
-<a href="https://github.com/bridnap"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-</div>     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="results" class="results">
+                    	<a href="https://github.com/bridnap"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
