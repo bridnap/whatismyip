@@ -45,17 +45,21 @@
             <div class="row">
                 <div id="form" class="col-md-6 col-md-offset-3">
                     <h2>What Is My IP?</h2>
-  <script type="application/javascript">
+                    <br/>
+  <h3><script type="application/javascript">
   function getIP(json) {
     document.write(json.ip);
   }
-</script><script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</script><script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script></h3>
                 </div>
             </div>
             <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div>
+                	<p>
+            This app has only one use:  show your public IP address at load time.  The IP is being pulled from header presented by the IP.  If you are running through a proxy, then that IP address will be displayed.  
+        </p>
                     <a href="https://github.com/bridnap"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
                 </div>
             </div>
